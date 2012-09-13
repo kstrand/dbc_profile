@@ -1,6 +1,8 @@
 DbcProfile::Application.routes.draw do
   # get "profile_pages/home"
-  root :to => 'profile_pages#home'
+  
+  root :to => "profile_pages#home"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
